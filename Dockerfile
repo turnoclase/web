@@ -8,6 +8,10 @@ RUN apk update && apk add --no-cache \
 
 RUN npm install -g firebase-tools
 
+RUN apk update && apk add --no-cache \
+    ruby ruby-dev libffi-dev alpine-sdk openssl-dev yaml-dev && \
+    gem install bundle
+
 WORKDIR /firebase
 
 RUN mkdir -p /home/node/.config && chown node:node /home/node/.config
