@@ -21,7 +21,7 @@ workspace:
 	@docker compose run -q --rm node /bin/bash
 
 update:
-	@cd jekyll && bundle update
+	@docker compose run -q --rm node /bin/bash -c 'source /home/node/.bashrc && cd jekyll && bundle update --all'
 	@echo Generando commit...
 	@sleep 5
 	@git commit -a -m "Actualización de dependencias"
