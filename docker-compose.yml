@@ -9,9 +9,9 @@ services:
     hostname: web
     volumes:
       - .:/firebase
-      - config:/home/node/.config
+      - node_home:/home/node
     ports:
       - "9005:9005"
 
 volumes:
-  config:
+  node_home:
