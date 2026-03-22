@@ -12,6 +12,7 @@ services:
       - node_home:/home/node
     ports:
       - "9005:9005"
+      - "4000:4000"
 
 volumes:
   node_home:

@@ -32,7 +32,7 @@ deploy:
 	@docker compose run -q --rm --service-ports node /bin/sh -c 'firebase login && firebase use turnoclase-eu && firebase deploy --only hosting'
 
 serve:
-	@cd jekyll && bundle exec jekyll serve
+	@docker compose run -q --rm --service-ports node /bin/sh -c 'source /home/node/.bashrc && cd jekyll && bundle exec jekyll serve --host 0.0.0.0'
 
 clean:
 	@docker compose down -v --remove-orphans
