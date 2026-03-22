@@ -27,8 +27,7 @@ update:
 	@git commit -a -m "Actualización de dependencias"
 
 deploy:
-	@cd jekyll && bundle exec jekyll build
-	@cd ..
+	@docker compose run -q --rm node /bin/bash -c 'source /home/node/.bashrc && cd jekyll && bundle exec jekyll build'
 	@docker compose run -q --rm --service-ports node /bin/sh -c 'firebase login && firebase use turnoclase-eu && firebase deploy --only hosting'
 
 serve:
