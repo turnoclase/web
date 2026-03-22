@@ -19,3 +19,5 @@ RUN mkdir -p /home/node/.config && chown node:node /home/node/.config
 USER node
 
 ENV PS1='\u@\h:\w\$\040'
+
+RUN echo 'export GEM_HOME=/home/node/.gem' >> /home/node/.bashrc
