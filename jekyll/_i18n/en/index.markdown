@@ -24,14 +24,14 @@ TurnoClase is divided into two separate applications: one for students and one f
 </tr>
 <tr>
 <th style="text-align: center;">Teacher's app</th>
-<td style="text-align: center;"><a href="https://apps.apple.com/us/app/turnoclase-teacher/id1016192152?ls=1" target="_blank"><img style="height: 48px;" src="/images/badge_appstore-lrg-en.svg" alt="App Store Logo" height="48" /></a></td>
-<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jaureguialzo.turnoclaseprofesor" target="_blank"><img style="height: 48px;" src="/images/en_get.svg" alt="Play Store Logo" height="48" /></a></td>
+<td style="text-align: center;"><a href="https://apps.apple.com/us/app/turnoclase-teacher/id1016192152?ls=1" target="_blank"><img style="height: 48px;" src="/images/app_store_en.svg" alt="App Store Logo" height="48" /></a></td>
+<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jaureguialzo.turnoclaseprofesor" target="_blank"><img style="height: 48px;" src="/images/play_store_en.svg" alt="Play Store Logo" height="48" /></a></td>
 <td style="text-align: center;"><a href="https://turnoclase.github.io/vue/profesor/#/" target="_blank">Go to the website</a></td>
 </tr>
 <tr>
 <th style="text-align: center;">Student's app</th>
-<td style="text-align: center;"><a href="https://apps.apple.com/us/app/turnoclase/id1016190896?ls=1" target="_blank"><img style="height: 48px;" src="/images/badge_appstore-lrg-en.svg" alt="App Store Logo" height="48" /></a></td>
-<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jaureguialzo.turnoclase" target="_blank"><img style="height: 48px;" src="/images/en_get.svg" alt="Play Store Logo" height="48" /></a></td>
+<td style="text-align: center;"><a href="https://apps.apple.com/us/app/turnoclase/id1016190896?ls=1" target="_blank"><img style="height: 48px;" src="/images/app_store_en.svg" alt="App Store Logo" height="48" /></a></td>
+<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.jaureguialzo.turnoclase" target="_blank"><img style="height: 48px;" src="/images/play_store_en.svg" alt="Play Store Logo" height="48" /></a></td>
 <td style="text-align: center;"><a href="https://turnoclase.github.io/vue/#/" target="_blank">Go to the website</a></td>
 </tr>
 <tr>
