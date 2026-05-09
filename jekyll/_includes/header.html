@@ -24,12 +24,21 @@
                 {%- endif -%}
                 {%- endfor -%}
 
-                {% if site.lang == "es" %}
-                {% capture link %}{{page.namespace}} en{% endcapture %}
-                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link }} %}">en</a>
-                {% else if site.lang == "en" %}
-                {% capture link %}{{page.namespace}} es{% endcapture %}
-                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link }} %}">es</a>
+                {% if site.lang == "en" %}
+                {% capture link_es %}{{page.namespace}} es{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_es }} %}">es</a>
+                {% capture link_eu %}{{page.namespace}} eu{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_eu }} %}">eu</a>
+                {% elsif site.lang == "es" %}
+                {% capture link_en %}{{page.namespace}} en{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_en }} %}">en</a>
+                {% capture link_eu %}{{page.namespace}} eu{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_eu }} %}">eu</a>
+                {% elsif site.lang == "eu" %}
+                {% capture link_en %}{{page.namespace}} en{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_en }} %}">en</a>
+                {% capture link_es %}{{page.namespace}} es{% endcapture %}
+                <a class="page-link" style="color:#2a7ae2;" href="{% tl {{ link_es }} %}">es</a>
                 {% endif %}
 
             </div>
