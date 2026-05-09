@@ -11,6 +11,8 @@
     {% endif %}
     <title>{{ title }}</title>
 
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="48x48">
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
