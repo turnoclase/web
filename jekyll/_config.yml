@@ -29,7 +29,7 @@ theme: minima
 plugins:
   - jekyll-multiple-languages-plugin
 
-languages: [ "en", "es" ]
+languages: [ "en", "es", "eu" ]
 exclude_from_localizations: [ "images" ]
 
 # Exclude from processing.
