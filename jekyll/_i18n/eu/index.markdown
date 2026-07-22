@@ -38,7 +38,7 @@ TurnoClase bi aplikazio independientetan banatuta dago, bat ikaslearentzat eta b
 </tr>
 <tr>
 <th style="text-align: center;">Iturburu kodea</th>
-<td style="text-align: center;" colspan="3"><a href="https://github.com/ijaureguialzo/turnoclase" target="_blank"><img style="height: 48px;" src="/images/GitHub-Mark.svg" alt="GitHub Mark" height="48" /></a></td>
+<td style="text-align: center;" colspan="3"><a href="https://github.com/turnoclase" target="_blank"><img style="height: 48px;" src="/images/GitHub-Mark.svg" alt="GitHub Mark" height="48" /></a></td>
 </tr>
 </tbody>
 </table>
